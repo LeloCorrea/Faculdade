@@ -1,0 +1,46 @@
+//Nome dos integrantes do grupo: Anderson Corrêa e Fernando Brasil
+
+/*Definição:
+Faça um programa em C que receba da entrada padrão um inteiro positivo
+maior que 0. Este inteiro será a quantidade de números que deve ser
+lida
+a seguir.
+Para cada número inteiro lido, calcule o somatório e o fatorial deste
+número. Imprima em uma linha o somatório e o fatorial.
+Se o número for negativo, imprima -1.
+*/
+
+#include <stdio.h>
+#include <locale.h>
+
+int main (){
+
+	int soma = 0, fatorial = 1, num = 0, cont = 0, qtdNum = 0,numReal = 0;
+	
+	setlocale(LC_ALL, "Portuguese");
+	
+	printf("Quantos números você quer?\n");
+	scanf("%i", &qtdNum);
+	printf("\nDigite %i inteiros positivos ou negativos:\n", qtdNum);
+	
+	while (qtdNum > cont){
+		printf("\nDigite o número:\n");
+			scanf("%i", &num);
+			numReal = num;			
+		if(num<0){
+			printf("\nERRO. número negativo\n");
+			printf("-1 -1\n");
+		}else{
+			for(soma = 0, fatorial = 1; num > 0; num--){
+				soma += num;
+				fatorial *= num;
+			}
+			printf("\nSomatório de %i = %i", numReal, soma);
+			printf("\nFatorial de %i = %i", numReal, fatorial);
+			printf("\n%i %i\n", soma, fatorial);
+		}
+		cont++;
+	}
+	printf("\nFIM da digitação de %i números", qtdNum);
+	printf("\nFIM DO PROGRAMA!", qtdNum);
+}
