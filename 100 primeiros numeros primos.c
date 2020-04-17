@@ -1,8 +1,8 @@
-//Thiago Fonseca
+//Anderson CorrÃªa
 /*(2.5 Pontos) Implemente um Programa em C, que escreve os 100
-primeiros números primos existentes. Lembre-se que um número
-primo é aquele que é divisível apenas por 1 e ele mesmo (use o
-comando break para a implementação).*/
+primeiros nÃºmeros primos existentes. Lembre-se que um nÃºmero
+primo Ã© aquele que Ã© divisÃ­vel apenas por 1 e ele mesmo (use o
+comando break para a implementaÃ§Ã£o).*/
 #include <stdio.h>
 
 int main(){
