@@ -1,7 +1,7 @@
-//Thiago Fonseca
-/*São considerados primos gêmeos os pares: 3 e 5, 5 e 7, 11 e 13, 17 e 19, ... ou seja, denomina-se um par de
-números primos gêmeos cuja diferença é 2. Implemente um programa em Linguagem C, que escreve os 200
-primeiros primos gêmeos (use o \t para a impressão – fica melhor organizado na tela, depois da segunda
+//Anderson CorrÃªa
+/*SÃ£o considerados primos gÃªmeos os pares: 3 e 5, 5 e 7, 11 e 13, 17 e 19, ... ou seja, denomina-se um par de
+nÃºmeros primos gÃªmeos cuja diferenÃ§a Ã© 2. Implemente um programa em Linguagem C, que escreve os 200
+primeiros primos gÃªmeos (use o \t para a impressÃ£o â€“ fica melhor organizado na tela, depois da segunda
 linha).*/
 #include <stdio.h>
 
